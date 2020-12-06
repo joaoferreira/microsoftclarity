@@ -1,4 +1,4 @@
-# clarity
+# Microsoft Clarity for modern SharePoint
 
 ## Summary
 
