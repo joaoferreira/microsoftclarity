@@ -2,9 +2,13 @@
 
 ## Summary
 
-Short summary on functionality and used technologies.
+Creating engagement and measuring the success of any intranet is always a challenge, tools like Azure Application Insights and Google Analytics give you the usage metrics and now you can complement this information with Microsoft Clarity the new user behavior analytics tool.
 
-[picture of the solution in action, if possible]
+Microsoft Clarity will gives you the recording of the sessions and heat maps of the user interaction with the site, this will help to find and fix the areas of your pages that are not working as you expect.
+
+Have a look to article [How to add Microsoft Clarity to modern SharePoint](https://sharepoint.handsontek.net/2020/12/05/add-microsoft-cl…odern-sharepoint) to get detailed intructions on how to deploy this solution to SharePoint.
+
+![Clarity](https://handsontek.net/images/SharePoint/Clarity/dashboard.gif)
 
 ## Used SharePoint Framework Version
 
@@ -15,24 +19,18 @@ Short summary on functionality and used technologies.
 - [SharePoint Framework](https://aka.ms/spfx)
 - [Microsoft 365 tenant](https://docs.microsoft.com/en-us/sharepoint/dev/spfx/set-up-your-developer-tenant)
 
-> Get your own free development tenant by subscribing to [Microsoft 365 developer program](http://aka.ms/o365devprogram)
-
-## Prerequisites
-
-> Any special pre-requisites?
 
 ## Solution
 
 Solution|Author(s)
 --------|---------
-folder name | Author details (name, company, twitter alias with link)
+Clarity | João Ferreira, HANDS ON tek, [@joao12ferreira](https://twitter.com/joao12ferreira)
 
 ## Version history
 
 Version|Date|Comments
 -------|----|--------
-1.1|March 10, 2021|Update comment
-1.0|January 29, 2021|Initial release
+1.0|December 6, 2020|Initial release
 
 ## Disclaimer
 
@@ -48,24 +46,10 @@ Version|Date|Comments
   - **npm install**
   - **gulp serve**
 
-> Include any additional steps as needed.
-
-## Features
-
-Description of the extension that expands upon high-level summary above.
-
-This extension illustrates the following concepts:
-
-- topic 1
-- topic 2
-- topic 3
-
-> Notice that better pictures and documentation will increase the sample usage and the value you are providing for others. Thanks for your submissions advance.
-
-> Share your web part with others through Microsoft 365 Patterns and Practices program to get visibility and exposure. More details on the community, open-source projects and other activities from http://aka.ms/m365pnp.
 
 ## References
 
+- [How to add Microsoft Clarity to modern SharePoint](https://sharepoint.handsontek.net/2020/12/05/add-microsoft-cl…odern-sharepoint)
 - [Getting started with SharePoint Framework](https://docs.microsoft.com/en-us/sharepoint/dev/spfx/set-up-your-developer-tenant)
 - [Building for Microsoft teams](https://docs.microsoft.com/en-us/sharepoint/dev/spfx/build-for-teams-overview)
 - [Use Microsoft Graph in your solution](https://docs.microsoft.com/en-us/sharepoint/dev/spfx/web-parts/get-started/using-microsoft-graph-apis)
