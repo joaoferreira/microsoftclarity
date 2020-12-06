@@ -12,7 +12,7 @@ Have a look to article [How to add Microsoft Clarity to modern SharePoint](https
 
 ## Used SharePoint Framework Version
 
-![version](https://img.shields.io/badge/version-1.11-green.svg)
+![version](https://img.shields.io/badge/version-1.0-green.svg)
 
 ## Applies to
 
