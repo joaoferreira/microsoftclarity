@@ -1,13 +1,10 @@
+/* eslint-disable prefer-rest-params */
+
 import { override } from '@microsoft/decorators';
-import { Log } from '@microsoft/sp-core-library';
+
 import {
   BaseApplicationCustomizer
 } from '@microsoft/sp-application-base';
-import { Dialog } from '@microsoft/sp-dialog';
-
-import * as strings from 'MicrosoftClarityApplicationCustomizerStrings';
-
-const LOG_SOURCE: string = 'MicrosoftClarityApplicationCustomizer';
 
 
 export interface IMicrosoftClarityApplicationCustomizerProperties {
@@ -23,14 +20,12 @@ export default class MicrosoftClarityApplicationCustomizer
   @override
   public onInit(): Promise<void> {
 
-    var clarityID;
-    clarityID = this.properties.clarityID;
-    if (clarityID && clarityID != "") {debugger;
+    if (this.properties.clarityID && this.properties.clarityID != "") {
       (function(c,l,a,r,i,t,y){
         c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
         t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
         y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
-      })(window, document, "clarity", "script", clarityID);
+      })(window, document, "clarity", "script", this.properties.clarityID);
     }    
     return Promise.resolve();
   }

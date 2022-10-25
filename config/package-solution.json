@@ -3,7 +3,7 @@
   "solution": {
     "name": "clarity-client-side-solution",
     "id": "3bdc9333-07a6-4aef-93bd-20032da0061c",
-    "version": "1.0.0.0",
+    "version": "1.1.0.0",
     "includeClientSideAssets": true,
     "skipFeatureDeployment": true,
     "isDomainIsolated": false,
@@ -27,7 +27,18 @@
           ]
         }
       }
-    ]
+    ],
+    "metadata": {
+      "shortDescription": {
+        "default": "clarity description"
+      },
+      "longDescription": {
+        "default": "clarity description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    }
   },
   "paths": {
     "zippedPackage": "solution/clarity.sppkg"

@@ -7,24 +7,24 @@
   "manifestVersion": 2,
   "requiresCustomScript": false,
   "loaderConfig": {
-    "entryModuleId": "microsoft-clarity-application-customizer",
     "internalModuleBaseUrls": [
-      "https://localhost:4321/"
+      "https://localhost:4321/dist/"
     ],
+    "entryModuleId": "microsoft-clarity-application-customizer",
     "scriptResources": {
       "microsoft-clarity-application-customizer": {
         "type": "path",
-        "path": "dist/microsoft-clarity-application-customizer.js"
+        "path": "microsoft-clarity-application-customizer.js"
       },
       "@microsoft/sp-application-base": {
         "type": "component",
-        "version": "1.11.0",
-        "id": "4df9bb86-ab0a-4aab-ab5f-48bf167048fb"
+        "id": "4df9bb86-ab0a-4aab-ab5f-48bf167048fb",
+        "version": "1.15.2"
       },
       "@microsoft/decorators": {
         "type": "component",
-        "version": "1.11.0",
-        "id": "f97266fb-ccb7-430e-9384-4124d05295d3"
+        "id": "f97266fb-ccb7-430e-9384-4124d05295d3",
+        "version": "1.15.2"
       }
     }
   }
